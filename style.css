@@ -193,7 +193,7 @@ section {
 
 
 /* Mobile Device */
-@media (max-width:767px) {
+@media (max-width:420px) {
     .global {
         padding: 0px 1rem !important;
     }
