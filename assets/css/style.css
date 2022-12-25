@@ -1,0 +1,410 @@
+/* Global */
+* {
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth !important;
+}
+
+*::selection {
+    background: #4DD0C4 !important;
+    color: #000 !important;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background: #1c1b1b !important;
+}
+
+.row {
+    --bs-gutter-x: 0rem !important;
+}
+
+.global {
+    padding: 0px 10rem;
+}
+
+.h-line {
+    width: 16rem;
+    border-bottom: solid 3px #4dd0c4;
+}
+
+section {
+    padding: 30px 0px;
+}
+
+/* End Global */
+
+.navbar {
+    background: #1c1b1b !important;
+}
+
+.logo1 {
+    max-height: 80px;
+    padding: 5px 0px;
+}
+
+.nav-item a {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    color: #fff !important;
+    text-transform: uppercase;
+    transition: all 0.4s ease-in-out;
+}
+
+.nav-item a:hover {
+    color: #4DD0C4 !important;
+}
+
+.nav-item {
+    padding: 15px;
+}
+
+/* -----------------Header------------ */
+/* .header {
+    padding: 200px 0px;
+}
+
+.header h1 {
+    font-size: 35px;
+    letter-spacing: 4px;
+    font-weight: normal;
+}
+
+.header-title span {
+    font-size: 55px;
+}
+
+.header-text {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 35px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    display: block;
+    margin: 25px 0px;
+    word-spacing: 1px;
+}
+
+.header-btn a {
+    border-bottom-left-radius: 25px !important;
+    border-top-right-radius: 25px !important;
+    background-color: #4DD0C4 !important;
+    border: solid 3px #4DD0C4 !important;
+    font-size: 15px;
+    color: #fff;
+    padding: 16px 36px;
+    margin: 10px 20px 0px 0px;
+    border-width: 0px 0px 0px 0px;
+    border-color: #25958A;
+    transition: all 0.4s ease-in-out;
+} */
+
+.header-btn a:hover,
+.btn-center a:hover {
+    background-color: #1C1B1B !important;
+    border: solid 3px #4DD0C4 !important;
+}
+
+/* -----------------Our Games ------------ */
+.game-title h2,
+.team-title h2,
+.branches-title h2 {
+    font-size: 35px;
+    line-height: 1.3em;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.btn-center a {
+    font-weight: normal;
+    font-style: normal;
+    color: #FFFFFF;
+    background-color: #4DD0C4 !important;
+    border: solid 3px #31938A;
+    border-bottom-left-radius: 25px !important;
+    border-top-right-radius: 25px !important;
+    padding: 12px 24px;
+    font-size: 15px;
+    border-style: solid;
+    transition: all 0.4s ease-in-out;
+}
+
+/* -----------------about------------- */
+.about p {
+    margin: 0 0 30px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+
+.about-btn {
+    padding: 5px 5px 5px 5px;
+}
+
+.about-btn a {
+    border-bottom-left-radius: 25px !important;
+    border-top-right-radius: 25px !important;
+    background-color: #1C1B1B !important;
+    border: solid 3px #4DD0C4 !important;
+    font-size: 15px;
+    padding: 12px 24px;
+    transition: all 0.4s ease-in-out;
+}
+
+.about-btn a:hover {
+    background-color: #4DD0C4 !important;
+    border: solid 3px #31938A !important;
+}
+
+/* ----------------- Our Team ------------- */
+
+.team-member .card {
+    /* background: #1c1b1b !important; */
+    background: #000 !important;
+}
+
+.team-member .card img {
+    filter: grayscale(100%);
+    transition: all 1s ease-in-out;
+}
+
+.team-member .card img:hover {
+    filter: grayscale(0%);
+}
+
+.team-social {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.team-social a {
+    font-size: 25px;
+    color: #fff;
+}
+
+.card-body .card-title,
+.card-text {
+    line-height: 1.3em;
+    letter-spacing: 1.2px;
+
+}
+
+/* --------------------------About Page---------------------- */
+.content p,
+.content-information p {
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+}
+
+/* extra */
+h2 {
+    font-weight: 600;
+    line-height: 1.4em;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    color: #fff;
+    font-size: 30px;
+}
+
+/* ------------------careers------------ */
+.careers-content p {
+    word-spacing: 1px;
+    color: #fff;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+
+.careers-content p a {
+    color: #4DD0C4;
+}
+
+.careers-card h6 {
+    margin-bottom: 15px !important;
+    margin-top: 25px;
+}
+
+.careers-btn a {
+    font-weight: normal;
+    font-style: normal;
+    color: #FFFFFF;
+    background-color: #4DD0C4 !important;
+    border: solid 3px #31938A;
+    border-bottom-left-radius: 25px !important;
+    border-top-right-radius: 25px !important;
+    padding: 12px 24px;
+    font-size: 15px;
+    border-style: solid;
+    transition: all 0.4s ease-in-out;
+}
+
+.careers-btn a:hover {
+    background-color: #1c1b1b !important;
+    border: solid 3px #31938A !important;
+}
+
+/* ----------------contact section--------------- */
+.contact-info {
+    word-spacing: 1px;
+    line-height: 1.8em;
+    font-size: 15px;
+    color: #666;
+}
+
+.contact-item {
+    border: 1px solid #fff;
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 30px;
+    padding: 20px 30px;
+
+}
+
+.contact-icon {
+    background: #4DD0C4;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    color: #fff;
+}
+
+.contact-content {
+    margin-left: 25px;
+    color: #fff;
+}
+
+.contact-content h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #4DD0C4;
+}
+
+.contact-content p {
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.contact-form-wrapper {
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 50px 40px;
+}
+
+.section-title span {
+    font-size: 20px;
+    color: #4DD0C4;
+}
+
+.contact-form-wrapper .contact-form input,
+.contact-form-wrapper .contact-form textarea {
+    padding: 15px 25px;
+    border-radius: 30px;
+    border: 1px solid #fff;
+    color: #fff;
+    outline: none;
+    background-color: #1C1B1B;
+    margin-bottom: 25px;
+    width: 100%;
+    transition: all .2s ease-in-out;
+}
+
+.contact-form-wrapper .contact-form input:focus,
+.contact-form-wrapper .contact-form textarea:focus {
+    border: 1px solid #4DD0C4;
+}
+
+
+
+
+/* Mobile Device */
+@media (max-width:980px) {
+    .global {
+        padding: 0px 1rem !important;
+    }
+
+    /* ----------------- Mobile Header------------ */
+
+    .header {
+        padding: 50px 0px;
+    }
+
+    .header h1 {
+        font-size: 19px;
+        letter-spacing: 4px;
+        font-weight: normal;
+    }
+
+    .header-title span {
+        font-size: 30px;
+    }
+
+    .header-text {
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 25px;
+        letter-spacing: 1px;
+        color: #ffffff;
+        display: block;
+        margin: 20px 0px;
+        word-spacing: 1px;
+    }
+
+    .header-btn a {
+        border-bottom-left-radius: 25px !important;
+        border-top-right-radius: 25px !important;
+        background-color: #4DD0C4 !important;
+        border: solid 1px #4DD0C4 !important;
+        font-size: 15px;
+        color: #fff;
+        padding: 10px 25px;
+    }
+
+    .header-btn a:hover,
+    .btn-center a:hover {
+        background-color: #1C1B1B !important;
+        border: solid 1px #4DD0C4 !important;
+    }
+
+    /* -----------------Our Games ------------ */
+    .btn-center a {
+        border: solid 1px #31938A;
+        padding: 12px 24px;
+        font-size: 15px;
+    }
+
+    /* -----------------about------------- */
+    .about p {
+        letter-spacing: 0px;
+    }
+
+    .about-img {
+        display: none;
+    }
+
+    .about-btn a {
+        border: solid 1px #4DD0C4 !important;
+        font-size: 15px;
+        padding: 12px 24px;
+    }
+
+    .about-btn a:hover {
+        border: solid 1px #31938A !important;
+    }
+
+    /* ----------careers---------- */
+    .careers-btn {
+        display: flex;
+        justify-content: center;
+    }
+}
