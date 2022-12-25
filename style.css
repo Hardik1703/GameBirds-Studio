@@ -262,7 +262,12 @@ h2 {
     display: flex;
     margin-bottom: 30px;
     padding: 20px 30px;
+    transition: all 0.5s ease-in-out;
+}
 
+.contact-item:hover {
+    border: 1px solid #4DD0C4;
+    transform: scale(1.1);
 }
 
 .contact-icon {
@@ -406,5 +411,15 @@ h2 {
     .careers-btn {
         display: flex;
         justify-content: center;
+    }
+
+    /* extra */
+    h2 {
+        font-weight: 500;
+        line-height: 1.4em;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        color: #fff;
+        font-size: 25px;
     }
 }
